@@ -74,10 +74,12 @@ header{
 }
 #g6{
     height: 180px;
-    width: 500px;
+    
 
     
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
    margin-top:0px ;
    margin-bottom: 0px;
 }
@@ -89,7 +91,7 @@ header{
 }
 #g7{
     margin-top: 0px;
-    display: inline-block;
+    
 }
 #g8{
     margin-bottom: 0px;
