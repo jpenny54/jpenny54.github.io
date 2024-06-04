@@ -1,0 +1,168 @@
+header{
+    background-color: antiquewhite;
+    height: 150px; 
+    width: auto; 
+    border-radius: 15px; 
+}
+#g2{
+    margin-top: 0px; 
+    text-align: center;
+    color:blue ;
+    text-shadow: 3px 3px white;
+    animation-name: slideUp;
+    animation-duration: 2s;
+}
+#g3{
+   margin-top: 10px;
+   margin-left: 10px;
+    height: 50px;
+}
+.navbar ul{
+    border-radius: 15px;
+    padding: 0px;
+    margin: 0px;
+    background-color: black;
+    list-style-type: none;
+    overflow: hidden;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    margin-left: 80px;
+    text-align: center;
+    display: block;
+}
+.navbar a.active{
+    background-color: greenyellow;
+    border-radius: 5px;
+}
+.navbar a:hover{
+    background-color: grey;
+}
+.navbar li{
+    float: left;
+}
+#g4{
+    padding: 10px;
+    float: left;
+    height: 50px;
+}
+.display{
+    display: inline-block;
+}
+#dis1{
+    color: aqua;
+}
+#dis2{
+    color: red;
+    text-shadow: 1px 1px gray;
+}
+#dis3{
+    color: blue;
+    text-decoration:line-through;
+    font-style: italic;
+}
+#g5{
+    width: 200px;
+    float:right;
+    animation-name: slideUp;
+    animation-duration: 2s;
+}
+@keyframes slideUp{
+    from{transform: translateX(300%)}
+}
+#g6{
+    height: 180px;
+    width: 500px;
+
+    
+    display: inline-block;
+   margin-top:0px ;
+   margin-bottom: 0px;
+}
+#g11{
+    width: 200px;  
+    display: inline-block;
+   margin-top:0px ;
+   margin-bottom: 0px;
+}
+#g7{
+    margin-top: 0px;
+    display: inline-block;
+}
+#g8{
+    margin-bottom: 0px;
+}
+#g9:hover{
+    color: blue;
+    background-color: green;
+    height: 30px;
+    width: 100px;
+    border-radius: 15px;
+}
+#g9{
+    background-color: aqua;
+    border-radius: 10px;
+}
+#g10:hover{
+    cursor: pointer;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.box{
+    width: 150px;
+    height: 150px;
+    font-size: 8em;
+    text-align: center;
+    border-radius: 15px;
+    
+
+}
+#b1{
+    background-color: brown; 
+}
+#b2{
+    background-color: green;
+}
+#b3{
+    background-color: blue;
+}
+#b4{
+    background-color: violet;
+}
+#b5{
+    background-color: brown;
+    transform: rotateX(180deg);
+}
+#b6{
+    background-color: green;
+    transform: rotateY(180deg);
+}
+#b7{
+    background-color: blue;
+    transform: rotateZ(45deg);
+}
+#b8{
+    background-color: violet;
+    transform: skewX(30deg) ;
+}
+#b9{
+    background-color: red;
+    animation-name: rotate;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes rotate{
+    from{transform: rotateZ(360deg)}
+}
+footer{
+    background-color: grey;
+    text-align: center;
+}
+#b1{
+    background-color: gray;
+}
